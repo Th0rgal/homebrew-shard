@@ -2,15 +2,15 @@
 # frozen_string_literal: true
 
 cask "shard-launcher" do
-  version "0.1.1"
+  version "0.1.3"
 
   on_arm do
     url "https://github.com/th0rgal/shard/releases/download/v#{version}/shard-launcher-macos-arm64.dmg"
-    sha256 "PLACEHOLDER_SHA256_DMG_ARM64"
+    sha256 "09b8d46534735fcdccc58093fb66d0a8bc241587f2adfbae9a8ed4e167a82cdb"
   end
   on_intel do
     url "https://github.com/th0rgal/shard/releases/download/v#{version}/shard-launcher-macos-x64.dmg"
-    sha256 "PLACEHOLDER_SHA256_DMG_X64"
+    sha256 "4945f8f84073a0efa8ef50120a2d6992769b8d4aa05698ded92ca136c670bafc"
   end
 
   name "Shard Launcher"
