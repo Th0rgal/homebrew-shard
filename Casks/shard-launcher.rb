@@ -1,14 +1,14 @@
 cask "shard-launcher" do
-  version "0.1.20"
+  version "0.1.21"
 
   on_arm do
-    url "https://github.com/th0rgal/shard/releases/download/v0.1.20/shard-launcher-macos-arm64.dmg"
-    sha256 "6cfd98d29f3206808e29bb928486a61016632c8902ca5daffcacc087f60b569e"
+    url "https://github.com/th0rgal/shard/releases/download/v0.1.21/shard-launcher-macos-arm64.dmg"
+    sha256 "692c611720711b59ead608375b57acb42baa785c5a8decef9801446bcacca462"
   end
 
   on_intel do
-    url "https://github.com/th0rgal/shard/releases/download/v0.1.20/shard-launcher-macos-x64.dmg"
-    sha256 "b7f7ab5916c90356b1de0c5f9903743df4baeb765b975816d60fa9ff772b910c"
+    url "https://github.com/th0rgal/shard/releases/download/v0.1.21/shard-launcher-macos-x64.dmg"
+    sha256 "c66f4bbaef0857581b0bdde36f5d5c244492c4829fe985d4e0ee59c75d601b6b"
   end
 
   name "Shard Launcher"
