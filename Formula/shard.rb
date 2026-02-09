@@ -1,22 +1,22 @@
 class Shard < Formula
   desc "A minimal, content-addressed Minecraft launcher"
   homepage "https://shard.thomas.md"
-  version "0.1.24"
+  version "0.1.25"
   license "MIT"
 
   on_macos do
     if Hardware::CPU.arm?
-      url "https://github.com/th0rgal/shard/releases/download/v0.1.24/shard-cli-macos-arm64.tar.gz"
-      sha256 "6bf346d1cd53a85bd3f23ff01842f0d672fc5209137fcf6937274b7b532f4b0f"
+      url "https://github.com/th0rgal/shard/releases/download/v0.1.25/shard-cli-macos-arm64.tar.gz"
+      sha256 "b320d4e5d8232f88035d2caa1672c0cbe8820c55876e54bbb7c523919ad010ab"
     else
-      url "https://github.com/th0rgal/shard/releases/download/v0.1.24/shard-cli-macos-x64.tar.gz"
-      sha256 "110265dd352bb162cdea6ce0f39c5e602656a73d0e46a022252f436c5c12ab47"
+      url "https://github.com/th0rgal/shard/releases/download/v0.1.25/shard-cli-macos-x64.tar.gz"
+      sha256 "cc672420a74b45f0bd44688405a448ad88b3c559066eb29ebf1f4d770749309f"
     end
   end
 
   on_linux do
-    url "https://github.com/th0rgal/shard/releases/download/v0.1.24/shard-cli-linux-x64.tar.gz"
-    sha256 "fe4d528b4c9cc375f8302531d6e86adef80029c3ec48488e6f5c95d7d0597f9a"
+    url "https://github.com/th0rgal/shard/releases/download/v0.1.25/shard-cli-linux-x64.tar.gz"
+    sha256 "7ef97ab3a71a53d3765651947574a100f137280e42b7854ac1314802990ba064"
   end
 
   def install
